@@ -1,0 +1,19 @@
+{
+  "$schema": "../gen/schemas/capability.schema.json",
+  "identifier": "overlay-capability",
+  "description": "Capabilities for the Wraith overlay window",
+  "windows": ["overlay"],
+  "permissions": [
+    "core:default",
+    "core:event:default",
+    "core:event:allow-listen",
+    "core:event:allow-unlisten",
+    "core:event:allow-emit",
+    "core:window:default",
+    "core:window:allow-start-dragging",
+    "core:app:default",
+    "clipboard-manager:default",
+    "clipboard-manager:allow-read-text",
+    "clipboard-manager:allow-write-text"
+  ]
+}

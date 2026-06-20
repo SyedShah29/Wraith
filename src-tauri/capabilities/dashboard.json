@@ -1,0 +1,18 @@
+{
+  "$schema": "../gen/schemas/capability.schema.json",
+  "identifier": "dashboard-capability",
+  "description": "Capabilities for the Wraith dashboard window",
+  "windows": ["dashboard"],
+  "permissions": [
+    "core:default",
+    "core:event:default",
+    "core:event:allow-listen",
+    "core:event:allow-unlisten",
+    "core:event:allow-emit",
+    "core:window:default",
+    "core:app:default",
+    "clipboard-manager:default",
+    "clipboard-manager:allow-read-text",
+    "clipboard-manager:allow-write-text"
+  ]
+}
