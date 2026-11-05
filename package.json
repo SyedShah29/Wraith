@@ -1,6 +1,7 @@
 {
   "name": "wraith",
   "version": "0.1.0",
+  "author": "Syed Hasaan Shah",
   "private": true,
   "type": "module",
   "scripts": {
