@@ -9,13 +9,11 @@ import { detectClipboardIntent, clipboardPromptFor, VoiceActivityDetector, detec
 import { IPC, MODES } from '../shared/constants'
 import type { Message, Settings, Thread, TranscriptSegment } from '../shared/types'
 
-let abortController: AbortController | null = null
 const vad = new VoiceActivityDetector()
-
 export default function OverlayApp() {
   const {
     isExpanded, isVisible, mode, query, messages, settings, isRecording,
-    transcript, streamContent, isStreaming, clipboardSuggestion,
+    transcript, clipboardSuggestion,
     setExpanded, setMode, setQuery, setStreaming, appendStream, clearStream,
     addMessage, setRecording, addTranscript, setSettings, setClipboardSuggestion,
     clearTranscript,

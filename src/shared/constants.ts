@@ -1,4 +1,4 @@
-import type { AIModel, ModeConfig, Provider, Settings } from './types'
+import type { AIModel, ModeConfig, Settings } from './types'
 
 // ─── IPC Channel Names ───────────────────────────────────────────────────────
 export const IPC = {

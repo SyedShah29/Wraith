@@ -1,6 +1,5 @@
 import { useDashboardStore } from '../../store'
 import { MODES } from '../../shared/constants'
-import type { AppMode } from '../../shared/types'
 
 export default function History() {
   const { threads } = useDashboardStore()

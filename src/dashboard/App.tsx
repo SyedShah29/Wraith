@@ -7,7 +7,7 @@ import Hub from './pages/Hub'
 import Models from './pages/Models'
 import Playbooks from './pages/Playbooks'
 import History from './pages/History'
-import Settings from './pages/Settings'
+import SettingsPage from './pages/Settings'
 
 const NAV_ITEMS = [
   { id: 'hub', icon: '◎', label: 'Hub' },
@@ -40,7 +40,7 @@ export default function DashboardApp() {
       case 'models': return <Models />
       case 'playbooks': return <Playbooks />
       case 'history': return <History />
-      case 'settings': return <Settings />
+      case 'settings': return <SettingsPage />
     }
   }
 
